@@ -1,0 +1,153 @@
+.bg-pink{
+    background: linear-gradient(45deg,deeppink,blueviolet);
+    box-shadow: 0 0 10px black;
+}
+*{
+    font-family: 'Passero One', cursive;
+}
+.bg-ash{
+    background-color:whitesmoke ;
+    box-shadow: 0 0 10px black;
+
+}
+body{
+    background: url(https://toppng.com/uploads/preview/glass-drops-blur-moisture-surface-11570377011idw7mdns5k.jpg) no-repeat ;
+  background-size: 100% 100vh;
+  
+}
+.card
+{
+    box-shadow: 0 10px 10px black;
+}
+.btn-orange
+{
+    background-color: orange;
+}
+.card-body img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.c-1
+{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.c-1:hover{
+  border: 1px solid rgb(210, 255, 201);
+  padding: 10px;
+  scroll-behavior: smooth;
+  background-color: #eff6f7;
+  margin: 5px;
+   
+}
+.c-1:focus{
+    border: 1px solid rgb(210, 255, 201);
+    padding: 10px;
+    scroll-behavior: smooth;
+    background-color: #f5f0f3;
+    margin: 5px;
+     
+  }
+.h-1
+{
+    height: 65vh;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+   
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(139, 148, 146); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e8e9f8; 
+  }
+  .menu{
+      display: flex;
+      justify-content: space-between;
+  }
+  .active{
+      border-bottom: 1px solid white;
+
+  }
+ .chat-div{
+     
+     max-width: 90%;
+     display: flex;
+     align-items: center;
+     
+
+ }
+ .l{
+     float: left;
+     
+ }
+ .r{
+     float: right;
+ }
+ .chat-div img{
+     width: 30px;
+     height: 30px;
+ }
+ .chat-div{
+     
+ }
+ .l p{
+     border: 1px solid black;
+     padding: 10px;
+     
+ }
+ .l p:hover{
+     background-color: rgb(146, 141, 141);
+     color: white;
+ }
+ .r p{
+    border: 1px solid black;
+    padding: 10px;
+ }
+ .r p:hover{
+    background-color: rgb(146, 141, 141);
+    color: white;
+}
+ .tri-left{
+     margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #0f0b03;
+    border-bottom: 10px solid transparent;
+    
+    
+    
+}
+.tri-right{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #070f01;
+    border-bottom: 10px solid transparent;
+  
+   
+  
+}
+.box-1{
+ z-index:9999;
+ display: flex !important;
+ justify-content: space-between !important;
+ 
+}
